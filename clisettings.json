@@ -1,0 +1,17 @@
+{
+  "domainNamespace": "Replay.Api",
+  "applicationNamespace": "Replay.Api",
+  "infrastructureNamespace": "Replay.Api",
+  "apiNamespace": "Replay.Api",
+  "domainDirectory": "C:\\Projects\\Replay\\src\\Replay.Api",
+  "applicationDirectory": "C:\\Projects\\Replay\\src\\Replay.Api",
+  "infrastructureDirectory": "C:\\Projects\\Replay\\src\\Replay.Api",
+  "apiDirectory": "C:\\Projects\\Replay\\src\\Replay.Api",
+  "appDirectories": [ "C:\\Projects\\Replay\\src\\Replay.App" ],
+  "path": "C:\\Projects\\Replay",
+  "dbContext": "ReplayDbContext",
+  "sourceFolder": "src",
+  "resources": [
+    "ToDo"
+  ]
+}

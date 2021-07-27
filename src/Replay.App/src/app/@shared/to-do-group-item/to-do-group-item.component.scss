@@ -1,0 +1,28 @@
+:host {
+  height: 75px;
+  display: flex;
+  place-items: center start;
+  padding: 0 30px;
+  cursor: pointer;
+
+  .to-do-group-item__container {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    column-gap: 30px;
+
+    .to-do-group-item__icon-container {
+      display: grid;
+      place-items: center;
+      user-select: none;
+    }
+
+    .to-do-group-item__title {
+      margin: 0;
+      padding:0;
+      line-height: 1em;
+      font-size: 16px;
+      line-height: 24px;
+      user-select: none;
+    }
+  }
+}

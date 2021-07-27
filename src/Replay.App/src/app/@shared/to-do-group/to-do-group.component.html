@@ -1,0 +1,13 @@
+<ng-container *ngIf="vm$ | async as vm">
+  <h1 class="to-do-group__title">{{ type }}</h1>
+
+  <div>
+    <app-to-do-group-item *ngFor="let toDo of vm.toDos" [toDo]="toDo" (click)="handleToDoClick(toDo)">
+
+    </app-to-do-group-item>
+
+    <app-to-do-group-item (click)="handleAddAction(type)" [type]="ToDoItemType.AddAction">
+
+    </app-to-do-group-item>
+  </div>
+</ng-container>
