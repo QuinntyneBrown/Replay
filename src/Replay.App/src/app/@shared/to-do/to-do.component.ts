@@ -15,8 +15,6 @@ export class ToDoComponent  {
 
   private readonly _destroyed$ = new Subject();
 
-  public types: string[] = ["Personal","Work"];
-
   public form: FormGroup = new FormGroup({
     type: new FormControl(null, []),
     name: new FormControl(null,[]),
